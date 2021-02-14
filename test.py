@@ -9,7 +9,7 @@ from model import Deeplabv3
 
 trained_image_width=512 
 mean_subtraction_value=127.5
-image = np.array(Image.open('imgs/build.jpg'))
+image = np.array(Image.open('imgs/1.jpg'))
 
 # resize to max dimension of images from training dataset
 w, h, _ = image.shape
